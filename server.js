@@ -11,19 +11,19 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'app.html'));
 });
-app.get('/part1', function(req, res){
+app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'part1.html'));
 });
-app.get('/part2', function(req, res){
+app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'part2.html'));
 });
-app.get('/part3', function(req, res){
+app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'part3.html'));
 });
-app.get('/part4', function(req, res){
+app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'part4.html'));
 });
-app.get('/part5', function(req, res){
+app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'part5.html'));
 });
 //express server listen
