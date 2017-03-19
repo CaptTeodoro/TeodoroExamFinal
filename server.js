@@ -11,22 +11,22 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'view/app.html'));
 });
-app.get('/part1.html', function(req, res){
+app.get('/part1', function(req, res){
   res.sendFile(path.join(__dirname, 'view/part1.html'));
 });
-app.get('/part2.html', function(req, res){
+app.get('/part2', function(req, res){
   res.sendFile(path.join(__dirname, 'view/part2.html'));
 });
-app.get('/part3.html', function(req, res){
+app.get('/part3', function(req, res){
   res.sendFile(path.join(__dirname, 'view/part3.html'));
 });
-app.get('/part4.html', function(req, res){
+app.get('/part4', function(req, res){
   res.sendFile(path.join(__dirname, 'view/part4.html'));
 });
-app.get('/part5.html', function(req, res){
+app.get('/part5', function(req, res){
   res.sendFile(path.join(__dirname, 'view/part5.html'));
 });
-app.get('/app.html', function(req, res){
+app.get('/app', function(req, res){
   res.sendFile(path.join(__dirname, 'view/app.html'));
 });
 //express server listen

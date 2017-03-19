@@ -16,7 +16,7 @@ url: "http://www.omdbapi.com/?t=Transformers&y=2009"
 console.log(res);
 let html = `
 <font size="5" face="Calibri Light" color="#808080">
-<a href="app.html">Return</a>
+<a href="/app">Return</a>
 <center>
 <img src="${res.Poster}"/>
 <font color="#ce6171">
