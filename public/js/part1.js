@@ -46,7 +46,7 @@ let html = `
     <main>
      <section>
          <figure>
-             <a target="_blank" href="img/20071.jpg" alt="image-1" title="image-001"><img src="../public/img/20071.jpg" width="900" height="400"></a>
+             <a target="_blank" href="img/20071.jpg" alt="image-1" title="image-001"><img src="img/20071.jpg" width="900" height="400"></a>
            
          </figure>
          <figure>
