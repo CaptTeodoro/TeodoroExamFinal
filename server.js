@@ -9,22 +9,22 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static(path.join(__dirname, 'public')));
 //express routes
 app.get('/', function(req, res){
-  res.sendFile(path.join(__dirname, 'app.html'));
+  res.sendFile(path.join(__dirname, 'view/app.html'));
 });
 app.get('/part1', function(req, res){
-  res.sendFile(path.join(__dirname, 'part1.html'));
+  res.sendFile(path.join(__dirname, 'view/part1.html'));
 });
 app.get('/part2', function(req, res){
-  res.sendFile(path.join(__dirname, 'part2.html'));
+  res.sendFile(path.join(__dirname, 'view/part2.html'));
 });
 app.get('/part3', function(req, res){
-  res.sendFile(path.join(__dirname, 'part3.html'));
+  res.sendFile(path.join(__dirname, 'view/part3.html'));
 });
 app.get('/part4', function(req, res){
-  res.sendFile(path.join(__dirname, 'part4.html'));
+  res.sendFile(path.join(__dirname, 'view/part4.html'));
 });
 app.get('/part5', function(req, res){
-  res.sendFile(path.join(__dirname, 'part5.html'));
+  res.sendFile(path.join(__dirname, 'view/part5.html'));
 });
 //express server listen
 var server = app.listen(app.get('port'), function(){

@@ -15,12 +15,9 @@ url: "http://www.omdbapi.com/?t=Transformers&y=2011"
 }).done(function(res){
 console.log(res);
 let html = `
-<audio autoplay loop>
-  <source src="../public/mp3/2011.mp3" type="audio/mpeg">
 
-</audio>
 <font size="5" face="Calibri Light" color="#808080">
-<a href="../view/app.html">Return</a>
+<a href="app.html">Return</a>
 <center>
 <img src="${res.Poster}"/>
 <font color="#ce6171">
@@ -50,23 +47,23 @@ let html = `
     <main>
      <section>
          <figure>
-             <a target="_blank" href="../public/img/20111.jpg" alt="image-1" title="image-001"><img src="../public/img/20111.jpg" width="900" height="400"></a>
+             <a target="_blank" href="img/20111.jpg" alt="image-1" title="image-001"><img src="img/20111.jpg" width="900" height="400"></a>
            
          </figure>
          <figure>
-           <a target="_blank" href="../public/img/20112.jpg"><img src="../public/img/20112.jpg" alt="image-2" title="image-002" width="900" height="400"></a>
+           <a target="_blank" href="img/20112.jpg"><img src="img/20112.jpg" alt="image-2" title="image-002" width="900" height="400"></a>
           
        </figure>
        <figure>
-           <a target="_blank" href="../public/img/20113.jpg"><img src="../public/img/20113.jpg" alt="image-3" title="image-003" width="900" height="400"></a>
+           <a target="_blank" href="img/20113.jpg"><img src="img/20113.jpg" alt="image-3" title="image-003" width="900" height="400"></a>
           
        </figure>
        <figure>
-           <a target="_blank" href="../public/img/20114.jpg"><img src="../public/img/20114.jpg" alt="image-4" title="image-004" width="900" height="400"></a>
+           <a target="_blank" href="img/20114.jpg"><img src="img/20114.jpg" alt="image-4" title="image-004" width="900" height="400"></a>
            
        </figure>
        <figure>
-           <a target="_blank" href="../public/img/20115.jpg"><img src="../public/img/20115.jpg" alt="image-5" title="image-005" width="900" height="400"></a>
+           <a target="_blank" href="img/20115.jpg"><img src="img/20115.jpg" alt="image-5" title="image-005" width="900" height="400"></a>
           
        </figure>
          
